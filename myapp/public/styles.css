@@ -1,0 +1,82 @@
+h1 {
+  color: #000000;
+  font-family: Tahoma;
+  margin-top: 90px;
+  text-align: center;
+  padding: 1em;
+  font-size: 30px;
+}
+
+body {
+  font-family: Tahoma;
+  margin: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#content {
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50em;
+  height: 30em;
+  overflow: auto;
+}
+
+#content p {
+  padding: 1em;
+  margin: 10px;
+  background: #E6E6E6;
+  border: 1px solid #BDBDBD;
+  -moz-border-radius: 4px;
+}
+
+input {
+  border: #999 1px solid;
+  font-size: 10px;
+}
+
+#scroll {
+  position: relative;
+  width: 340px;
+  height: 270px;
+  overflow: auto;
+}
+
+#message {
+  border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  overflow: auto;
+  padding: 1 0 0 3px;
+  color: #000000;
+}
+
+#message button {
+  border: 1px solid #A9F5A9;
+  margin-top: 8px;
+  margin-left: -5px;
+  width: 15em;
+  height: 2em;
+  overflow: auto;
+}
+
+#message textarea {
+  border: 1px solid #A9F5A9;
+  width: 25em;
+  height: 2em;
+  font-family: 'Tahoma', 'sans-serif';
+  overflow: auto;
+}
+
+#message name {
+  visibility: 'false';
+}
+
+#add-message {
+  margin-right: 115px;
+  margin-bottom: 10px;
+
+}

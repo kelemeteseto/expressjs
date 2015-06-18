@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatroom</title>
+
+  <link rel="stylesheet" href="/styles.css">
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('button').click(function() {
+      var message = $('textarea').val();
+      var old = $('#content').html();
+
+      $('#content').html(old + '<p>' + message + '</p>');
+      });
+    });
+  </script>
+
+</head>
+<body>
+
+<h1>Chatroom</h1>
+<script src="/js/script.js"></script>
+
+<form id="form">
+  <div id="content">
+    <p>Here's our chat data</p>
+  </div>
+
+  <div id="message">
+    <textarea rows="3" cols="60" id="messages" name="message">Leave a message</textarea>
+    <button type="submit" id="add-message">Enter</button>
+    <input type="text" id="name" name="name">
+  </div>
+</form>
+
+<!-- <table id="content">
+  <tr>
+    <td>
+      <div id="scroll">
+      </div>
+    </td>
+    <td>
+      <div id="colorpicker">
+      </div>
+    </td>
+  </tr>
+</table> -->
+
+
+</body>
+</html>
